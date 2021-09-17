@@ -4,7 +4,7 @@ export default function handler(req, res) {
   res.setHeader(
     "Set-Cookie",
     serialize("ThirdPartyCookie", "true", {
-      domain: "*",
+      domain: "third-party-cookies-ten.vercel.app",
       path: "/",
       maxAge: 60 * 60 * 24 * 7, // 1 week
       httpOnly: true,
