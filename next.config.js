@@ -9,8 +9,7 @@ module.exports = {
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value:
-              "https://third-party-cookies-ten.vercel.app,http://localhost:3003",
+            value: "http://localhost:3003",
           },
           {
             key: "Access-Control-Allow-Methods",
