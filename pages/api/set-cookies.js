@@ -2,7 +2,7 @@ import { serialize } from "cookie";
 
 export default function handler(req, res) {
   res.setHeader(
-    "Set-Cookie",
+    "set-cookie",
     serialize("ThirdPartyCookie", "true", {
       domain: "third-party-cookies-ten.vercel.app",
       path: "/",
